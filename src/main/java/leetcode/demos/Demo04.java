@@ -1,5 +1,8 @@
 package leetcode.demos;
 
+/**
+ * 二分求平方根
+ */
 public class Demo04 {
 	public static void main(String[] args) {
 		System.out.println(mySqrt(8));
