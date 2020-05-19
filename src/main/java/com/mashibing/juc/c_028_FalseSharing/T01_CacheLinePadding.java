@@ -1,7 +1,5 @@
 package com.mashibing.juc.c_028_FalseSharing;
 
-import java.util.Random;
-
 public class T01_CacheLinePadding {
     private static class T {
         public volatile long x = 0L;

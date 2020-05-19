@@ -3,7 +3,6 @@ package com.mashibing.juc.c_026_00_interview.A1B2C3;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.locks.LockSupport;
 
 public class T04_00_BlockingQueue {
 

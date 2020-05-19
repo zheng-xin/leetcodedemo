@@ -9,11 +9,9 @@
  */
 package com.mashibing.juc.c_025;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.Vector;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class T02_CopyOnWriteList {

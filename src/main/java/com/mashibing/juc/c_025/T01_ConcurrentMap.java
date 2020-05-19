@@ -5,9 +5,10 @@
  */
 package com.mashibing.juc.c_025;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.concurrent.CountDownLatch;
 
 public class T01_ConcurrentMap {

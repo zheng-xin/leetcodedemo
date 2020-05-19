@@ -19,7 +19,6 @@ package com.mashibing.juc.c_020;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.function.Function;
 
 public class T04_ReentrantLock4 {
 		

@@ -6,11 +6,7 @@ package com.mashibing.juc.c_026_01_ThreadPool;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 public class T09_FixedThreadPool {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
