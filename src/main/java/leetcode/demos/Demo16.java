@@ -23,8 +23,8 @@ package leetcode.demos;
 public class Demo16 {
     public  static int romanToInt(String s) {
         int sum = 0;
-        for (int i = s.length() - 1; i >= 0;i--) {
-            char pre = i < s.length() - 1 ? s.charAt(i+1) : '0';
+        for (int i = 0; i < s.length();i++ ) {
+            char pre = i - 1 >= 0 ? s.charAt(i - 1) : '0';
             char current = s.charAt(i);
             sum +=translate(pre,current);
         }
@@ -40,22 +40,24 @@ public class Demo16 {
         }
     }
     public static  int getInt(char c) {
-        if ('I' ==  c) {
-            return 1;
-        } else if ('V' == c) {
-            return 5;
-        } else if ('X' == c) {
-            return 10;
-        } else if ('L' == c) {
-            return 50;
-        } else if ('C' == c) {
-            return 100;
-        } else if ('D' == c) {
-            return 500;
-        } else if ('M' == c) {
-            return 1000;
+        switch (c) {
+            case 'I':
+                return 1;
+            case 'V':
+                return 5;
+            case 'X':
+                return 10;
+            case 'L':
+                return 50;
+            case 'C':
+                return 100;
+            case 'D':
+                return 500;
+            case 'M':
+                return 1000;
+            default:
+                return 0;
         }
-        return 0;
     };
 
     public static void main(String[] args) {
