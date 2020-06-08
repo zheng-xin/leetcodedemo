@@ -3,6 +3,8 @@
  * 也就是说synchronized获得的锁是可重入的
  * 这里是继承中有可能发生的情形，子类调用父类的同步方法
  * @author mashibing
+ *
+ * https://www.lagou.com/lgeduarticle/63755.html
  */
 package com.mashibing.juc.c_010;
 
